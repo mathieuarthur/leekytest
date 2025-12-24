@@ -4,7 +4,7 @@ permissions:
   contents: write
 jobs:
   workdir:
-    uses: your-username/leeky/.github/workflows/run.yml@v1
+    uses: mathieuarthur/leeky/.github/workflows/run.yml@v1
     secrets:
       LW_LOGIN: ${{ secrets.LW_LOGIN }}
       LW_PASSWORD: ${{ secrets.LW_PASSWORD }}
