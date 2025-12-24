@@ -1,0 +1,10 @@
+name: Use Leeky Workdir
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  workdir:
+    uses: your-username/leeky/.github/workflows/run.yml@v1
+    secrets:
+      LW_LOGIN: ${{ secrets.LW_LOGIN }}
+      LW_PASSWORD: ${{ secrets.LW_PASSWORD }}
