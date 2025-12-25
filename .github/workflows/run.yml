@@ -12,5 +12,4 @@ jobs:
     secrets:
       LW_LOGIN: ${{ secrets.LW_LOGIN }}
       LW_PASSWORD: ${{ secrets.LW_PASSWORD }}
-      CALLER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
