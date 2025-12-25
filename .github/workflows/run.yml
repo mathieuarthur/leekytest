@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   generate:
-    uses: mathjeuarthur/leeky/.github/workflows/generate-workdir.yml@main
+    uses: mathieuarthur/leeky/.github/workflows/generate-workdir.yml@main
     secrets:
       LW_LOGIN: ${{ secrets.LW_LOGIN }}
       LW_PASSWORD: ${{ secrets.LW_PASSWORD }}
